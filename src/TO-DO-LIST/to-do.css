@@ -43,14 +43,15 @@ font-family: cursive;
 
 ul{
 
-    text-decoration: none;
     font-family: cursive;
-    list-style-type: none;
+    list-style: square;
+    text-align: left;
+    font-size: 20px;
 }
 
 li{
-display: block;
-
+color: black;
+margin-left: 0;
 }
 
 
@@ -58,6 +59,7 @@ display: block;
 
     padding: 12px 10px;
     border-radius: 5px;
+    width: 80%;
     border: none;
     font-family: cursive;
     font-size: 20px;
