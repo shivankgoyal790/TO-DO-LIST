@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-color: rgb(201, 199, 199) ;
+    font-family: cursive;
+
+}
+
+.todo-container{
+    background-color: #eee;
+    border-radius: 7px;
+    border : 4px solid #4caf50;
+    padding: 10px 20px;
+    height: 500px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.btn{
+
+    border-radius: 50%;
+    background-color: #ddd;
+    padding: 5px 5px;
+    margin-left: 9px;
+    border:1px solid #4caf50;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #4caf50;
+
+}
+
+.heading1{
+
+background-color: #4caf50;
+padding: 12px 10px ;
+text-align: center;
+color: #ddd;
+font-family: cursive;
+}
+
+ul{
+
+    text-decoration: none;
+    font-family: cursive;
+    list-style-type: none;
+}
+
+li{
+display: block;
+
+}
+
+
+.inpt{
+
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: cursive;
+    font-size: 20px;
+    border-bottom:3px solid #4caf50;
+
+}
+
