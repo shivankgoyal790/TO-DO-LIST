@@ -26,6 +26,22 @@ body{
 
 }
 
+
+.btn2{
+
+    border-radius: 50%;
+    background-color: #ddd;
+    padding: 5px 5px;
+    margin-left: 9px;
+    border:1px solid #4caf50;
+
+}
+
+.btn2:hover{
+    background-color: crimson;
+}
+
+
 .btn:hover{
     cursor: pointer;
     background-color: #4caf50;
@@ -66,4 +82,27 @@ margin-left: 0;
     border-bottom:3px solid #4caf50;
 
 }
+
+@media screen and (max-width:1200px) {
+    
+    .todo-container{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .todo-container{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+
+}
+
+
 
