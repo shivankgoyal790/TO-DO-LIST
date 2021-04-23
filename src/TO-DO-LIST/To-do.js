@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./to-do.css"
-
+import List from "./List.js"
 const Todo = () =>{
 
 
@@ -20,10 +20,17 @@ const Todo = () =>{
         setvalue("");    
     }
 
-    const function3 = () =>{
+    const deletelist = (id) =>{
 
+        setitems((olditems) => {
+            return olditems.filter((arrelememt ,index) => {
+                return index !== id;
+            })
+        })
 
     }
+
+
     return(
     <>
         <div className="todo-container">
@@ -32,7 +39,7 @@ const Todo = () =>{
         <button className="btn" onClick={function1}>➕</button>
         <ul id="list1">
             {items.map( (itemvalue , index) => {
-                return <li key={index}>{itemvalue} <button onclick={function3} className="btn2">⚔️</button>  </li>
+                return <List  key={index} id={index} text={itemvalue} onSelect={deletelist}/>
             })}
         </ul>
         </div>
